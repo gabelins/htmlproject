@@ -1,0 +1,81 @@
+/*select all html font and make it size 16
+*/
+html,body * {
+    font-size:16px;
+    font-family:verdana;
+    height:100%;
+    vertical-align: middle;
+
+}
+/* select table & form and make it black w/ solid border
+*/
+table, th, td, form {
+    border: 1px solid black;
+}
+/*  content, in this case navbar is blue*/
+#content{
+    background-color: lightskyblue;
+    width: 600px;
+    padding: 10px;
+}
+
+body{
+    background-color: gray;
+}
+/*for side bar float
+*/
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%
+}
+
+.center {
+    text-align:center;
+}
+/* navbar thickness font
+*/
+.navbar {
+    margin: 10px;
+    font-size: 100%;
+
+
+  }
+  
+  /*.center for table
+  */
+  li {
+      display: inline;
+  }
+  .center {
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      }
+      li {
+      display: inline;
+      }
+
+      
+ /* unused div class tags
+
+ div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+
+  div.c {
+    text-align: ri;
+  }
+  
+  
